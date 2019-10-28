@@ -16,8 +16,11 @@ body
     top: 0;
     font-size: 20px;
     height: 100px;
+    text-align: center;
     width: 1000px;
     background-color: rgb(179, 179, 179);
+    padding: 0;
+    margin: 0;
 }
 .left
 {
@@ -40,19 +43,48 @@ body
     background-color: red;
     clear: both;
 }
-a:link
+.a:link
 {
     color: orange;
     text-decoration-line: none;
     font-size: 40px;
 }
-a:visited
+.a:visited
 {
     color: orange;
     font-size: 40px;
 }
-a:hover
+.a:hover
 {
     color: rgb(230, 149, 0);
     font-size: 40px;
+}
+ol
+{
+    list-style-type: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 200%;
+    display: inline-block;
+}
+ol a
+{
+    color: orange;
+    text-decoration: none;
+    display: block;
+}
+ol a:hover
+{
+    color: rgb(230, 149, 0);
+    background-color:#cccccc;
+}
+ol > li
+{
+    float: left;
+    width: 220px;
+    border-right: 1px dotted orange;
+}
+ol > li:first-child
+{
+    border-left: 1px dotted orange;
 }
