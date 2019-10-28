@@ -1,0 +1,38 @@
+body
+{
+    margin: 0px;
+}
+.container
+{
+    height: 700px;
+    width: 1000px;
+    background-color: aqua;
+    margin-left: 25%;
+}
+.head
+{
+    height: 100px;
+    width: 1000px;
+    background-color: blue;
+}
+.left
+{
+    height: 500px;
+    width: 400px;
+    background-color: blue;
+    float: left;
+}
+.right
+{
+    height: 500px;
+    width: 600px;
+    background-color: red;
+    float: left;
+}
+.footer
+{
+    height: 100px;
+    width: 1000px;
+    background-color: blue;
+    float: left;
+}
