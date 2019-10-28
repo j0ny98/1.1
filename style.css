@@ -1,38 +1,58 @@
 body
 {
-    margin: 0px;
+    margin: 0 !important;
+    font-family: 'Karla', sans-serif;
 }
 .container
 {
-    height: 700px;
+    height: 1500px;
     width: 1000px;
-    background-color: aqua;
     margin-left: 25%;
 }
 .head
 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
     height: 100px;
     width: 1000px;
-    background-color: blue;
+    background-color: rgb(179, 179, 179);
 }
 .left
 {
-    height: 500px;
+    height: 1300px;
     width: 400px;
-    background-color: blue;
+    background-color: rgb(242, 242, 242);
     float: left;
 }
 .right
 {
-    height: 500px;
+    height: 1300px;
     width: 600px;
-    background-color: red;
+    background-color: rgb(242, 242, 242);
     float: left;
 }
 .footer
 {
     height: 100px;
     width: 1000px;
-    background-color: blue;
-    float: left;
+    background-color: red;
+    clear: both;
+}
+a:link
+{
+    color: orange;
+    text-decoration-line: none;
+    font-size: 40px;
+}
+a:visited
+{
+    color: orange;
+    font-size: 40px;
+}
+a:hover
+{
+    color: rgb(230, 149, 0);
+    font-size: 40px;
 }
