@@ -63,7 +63,7 @@ ol
 {
     list-style-type: none;
     font-size: 20px;
-    height: 30px;
+    height: 50px;
     line-height: 200%;
     display: inline-block;
 }
@@ -81,10 +81,37 @@ ol a:hover
 ol > li
 {
     float: left;
-    width: 220px;
+    width: 230px;
     border-right: 1px dotted orange;
 }
 ol > li:first-child
 {
     border-left: 1px dotted orange;
+}
+ol > li:hover > a
+{
+    color: orangered;
+}
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+ol > li:hover > ul
+{
+    display: block;
+}
+ol > li > ul > li
+{
+    background-color: silver;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed orange;
+}
+ol > li > ul > li:hover
+{
+    background-color: #ffb833;
 }
