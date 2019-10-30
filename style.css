@@ -89,13 +89,6 @@ input[type=submit]:hover
     background-color: #b8dc6f;
 }
 
-.right
-{
-    height: 1300px;
-    width: 600px;
-    background-color: rgb(242, 242, 242);
-    float: left;
-}
 .footer
 {
     height: 100px;
@@ -174,4 +167,15 @@ ol > li > ul > li
 ol > li > ul > li:hover
 {
     background-color: #ffb833;
+}
+/*Ostatnie zmiany (Right)*/
+
+.right
+{
+    height: 1300px;
+    width: 600px;
+    background-color: rgb(242, 242, 242);
+    float: left;
+    text-align: center;
+    padding: 0;
 }
